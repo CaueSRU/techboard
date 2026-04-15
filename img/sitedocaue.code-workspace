@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../sitedocaue"
+		},
+		{
+			"path": "../../aaaaaaaaaaa"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "techboard"
+	}
+}

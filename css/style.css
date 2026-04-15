@@ -1,0 +1,217 @@
+ 
+ 
+ /*FONT FACE*/
+ 
+ @font-face {
+     font-family: "unbounded";
+     src: url("../fontes/Unbounded-Bold.ttf") format("truetype");
+     font-weight: 700;
+     font-style: normal;
+     font-display: swap;
+
+ }
+
+
+ @font-face {
+     font-family: "poppins";
+     src: url("../fontes/Poppins-regular.ttf") format("truetype");
+     font-weight: 400;
+     font-style: normal;
+     font-display: swap;
+
+
+
+ }
+
+ /*RESET*/
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+/*ESTILO DESKTOP*/
+ body {
+
+     background-color: #0E1014;
+     color: #FFFFFF;
+ }
+
+
+header img {
+   display: block;
+    margin: 75px 0 0 360px;
+}
+
+
+
+
+
+
+ h1 span {
+     color: #9747ff;
+ }
+
+ 
+ 
+ 
+ h1 {
+     font-size: 64px;
+     font-family: "unbounded", sans-serif;
+
+     margin-top: 50px;
+     text-align: center;
+     margin-top: 60px;
+
+ }
+
+ p {
+
+     font-family: "poppins", sans-serif;
+     font-size: 24px;
+     text-align: center;
+     margin-top: 24px;
+     width: 792px;
+     margin :24px auto 0;
+ }
+
+
+
+ a {
+
+     color: #FFFFFF;
+     font-family: "poppins", sans-serif;
+     font-size: 24px;
+     text-decoration: none;
+     background-color: #9747ff;
+     width: 340px;
+     height: 66px;
+     display: block;
+     text-align: center;
+     line-height: 66px;
+     border-radius: 36px;
+     margin: 40px auto ;
+
+
+
+
+
+
+ }
+
+ a:hover {
+     background-color: #8233E8;
+     
+ }
+
+
+section img {
+    display: block;
+    width: 792px;
+    height: 446px;
+    margin: 100px auto 0;
+}
+
+/*formato para o tablet*/
+
+
+
+
+
+@media (max-width: 768px) {
+    
+   header img {
+    margin: 65px auto 0 60px;
+    }
+
+    p { 
+
+        width: 648px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/*formato para mobile*/
+
+
+
+
+
+
+@media (max-width: 375px) {
+   
+    header img { 
+margin: 32px auto 0 16px;
+
+    }
+
+    h1 {
+        width: 341px;
+        font-size: 40px;
+        margin:60px auto 0  17px ;
+    
+
+ }
+
+ p{ 
+
+    width: 341px;
+    font-size: 20px;
+    margin: 24px 17px 40px 17px;
+
+ }
+
+ a{ 
+
+    width: 251px;
+    height: 66px;
+    
+    margin: 40px 62px 0 62px;
+    font-size:20px ;
+ }
+
+ section img {  
+    width: 341px;
+    height: 230px;
+    margin: 40px 17PX 0 17PX;
+    
+
+
+
+
+ }
+
+
+
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
